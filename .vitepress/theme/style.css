@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --vp-font-family-base: 'Proxima Nova', 'Inter var experimental', 'Inter var', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    --vp-c-bg: transparent;
+    --vp-c-bg-alt: transparent;
+    --vp-c-brand: #eab308;
+    --vp-c-brand-dark: #ca8a04;
+    --vp-c-divider: #eab308;
+    --vp-c-text-light-2: #ffffff;
+    --vp-c-text-1: #ffffff;
+}
+
+body {
+    @apply bg-hero-pattern;
+}
+
+.logo {
+    height: 36px !important;
+}
+
+h2 {
+    margin: 0 !important;
+    border: none;
+}
+
+.VPContent:not(.is-home) {
+    background-color: rgba(71, 85, 105, 1) !important;  
+}
+
+.VPNav:is(.no-sidebar),
+.VPFooter {
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+}
+
+.VPNav:not(.no-sidebar) {
+    backdrop-filter: none !important;
+    background-color: rgba(71, 85, 105, 1) !important;  
+}
+
+.VPNavBar.has-sidebar .content {
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    background-color: rgba(71, 85, 105, 1) !important;  
+}
+
+.VPFooter p {
+    color: #fff !important;
+    font-weight: 400;
+}
+
+.VPSidebar:is(.open) {
+    background-color: rgba(71, 85, 105, 1) !important;  
+}
+
+.VPLocalNav {
+    background-color: rgba(71, 85, 105, 1) !important;  
+    backdrop-filter: none !important;
+}
+
+.VPLocalNav {
+    border-top: 1px solid rgba(71, 85, 105, .2) !important;
+    border-bottom: 1px solid rgba(71, 85, 105, .2) !important;
+}
+
+.link-text {
+    font-size: 16px !important;
+}
+
+.header-anchor {
+    display: none !important;
+}
+
+h1 .header-anchor, h2 .header-anchor {
+    display: block !important;
+    opacity: 1 !important;
+}
