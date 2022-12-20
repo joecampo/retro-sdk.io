@@ -1,6 +1,6 @@
 export default {
   title: 'retro aol sdk',
-  description: 'A sdk for Re-AOL',
+  description: 'A sdk for P3OL',
   appearance: false,
   head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.cdnfonts.com/css/proxima-nova-2' }]

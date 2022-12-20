@@ -16,7 +16,7 @@ head:
       content:  Retro AOL SDK
   - - meta
     - property: 'title:description'
-      content: An unofficial API server & JavaScript SDK for building Re-AOL web apps
+      content: An unofficial API server & JavaScript SDK for building P3OL web apps
   - - meta
     - property: 'og:type'
       content: object
@@ -28,7 +28,7 @@ head:
       content:  Retro AOL SDK
   - - meta
     - property: 'og:description'
-      content: An unofficial API server & JavaScript SDK for building Re-AOL web apps
+      content: An unofficial API server & JavaScript SDK for building P3OL web apps
 ---
 <script setup>
 import { defineAsyncComponent } from 'vue';
@@ -44,7 +44,7 @@ const RetroClient = defineAsyncComponent(() => {
     <div class="lg:mt-20">
       <div class="text-4xl font-bold">
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
-          An unofficial API server & JavaScript SDK for building <span class="whitespace-nowrap">Re-AOL</span> web apps
+          An unofficial API server & JavaScript SDK for building <span class="whitespace-nowrap">P3OL</span> web apps
         </span>
       </div>
       <div class="flex items-center justify-center h-52 gap-x-4">

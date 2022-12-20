@@ -10,7 +10,7 @@ client.sendChatMessage('hello world!');
 ```
 
 ## login
-Begin a session with Re-AOL. 
+Begin a session with P3OL. 
 * Response: HTTP Status `201`
 > Note: If you already have an active session and attempt to login again the server will return HTTP Status `418`
 
@@ -44,7 +44,7 @@ login(username: string, password?: string): Promise<any>;
 ```
 
 ## logoff
-Begin a session with Re-AOL. 
+Begin a session with P3OL. 
 * Response: HTTP Status `200`
 ### Usage
 ```js
@@ -80,7 +80,7 @@ fetchChatRooms(): Promise<any>;
 ```
 
 ## joinChatRoom
-Join a public chat room on Re-AOL.
+Join a public chat room on P3OL.
 * Response: HTTP Status `200`
 ### Usage
 ```js
@@ -92,7 +92,7 @@ joinChatRoom(roomName: string): Promise<any>;
 ```
 
 ## leaveChatRoom
-Leave a chat room on Re-AOL.
+Leave a chat room on P3OL.
 * Response: HTTP Status `200`
 ### Usage
 ```js
@@ -104,7 +104,7 @@ leaveChatRoom(roomName: string): Promise<any>;
 ```
 
 ## sendChatMessage
-Begin a session with Re-AOL. 
+Begin a session with P3OL. 
 * Response: HTTP Status `201`
 ### Usage
 ```js

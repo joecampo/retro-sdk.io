@@ -16,7 +16,7 @@ import { Events } from 'retro-aol-sdk/types';
 ```
 
 ## .logged.on
-Sent once authentication with the Re-AOL server is complete.
+Sent once authentication with the P3OL server is complete.
 * TypeScript: `Events.LOGGED_ON`
 * String: `.logged.in`
 ### Response
@@ -27,7 +27,7 @@ Sent once authentication with the Re-AOL server is complete.
 ```
 
 ## .logged.off
-Sent once session with Re-AOL has been logged off.
+Sent once session with P3OL has been logged off.
 * TypeScript: `Events.LOGGED_OFF`
 * String: `.logged.off`
 ### Response
@@ -38,7 +38,7 @@ Sent once session with Re-AOL has been logged off.
 ```
 
 ## .login.invalid
-Sent once the Re-AOL server rejects the log in attempt as invalid for incorrect username or password.
+Sent once the P3OL server rejects the log in attempt as invalid for incorrect username or password.
 * TypeScript: `Events.LOGIN_INVALID`
 * String: `.login.invalid`
 ### Response
